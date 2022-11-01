@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jonathan Jones 3D Modeler and Texture Artist",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "website",
+    "sass",
+    "bootstrap",
+    "portfolio"
+  ],
+  "author": "Jonathan Jones",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.2",
+    "postcss-cli": "^10.0.0"
+  }
+}
